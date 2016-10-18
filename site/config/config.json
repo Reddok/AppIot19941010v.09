@@ -1,0 +1,57 @@
+{
+  "process": {
+    "state": false,
+    "ping": {
+      "interval": 310000,
+      "timeout": 36000,
+      "triesReconnect": 127
+    },
+    "request": {
+      "interval": 102000,
+      "timeRange": "s",
+      "timeout": 18000
+    }
+  },
+  "date": "2016-09-15T04:27:27.687Z",
+  "time": {
+    "decryptedRanges": {
+      "s": 1000,
+      "m": 60000,
+      "h": 3600000,
+      "d": 86400000,
+      "w": 604800000
+    }
+  },
+  "db": {
+    "state": true
+  },
+  "twilio": {
+    "number": "+12563048319",
+    "sid": "ACa503ab1dac52d7ee85f77cd9d9bd393a",
+    "token": "8213f91839dcfe3e99b8279f2a96d5f1"
+  },
+  "mail": {
+    "user": "reddok2@gmail.com",
+    "password": "0507179126",
+    "admin": "iotservice262@gmail.com"
+  },
+  "logs": {
+    "filepath": "/home"
+  },
+  "user": {
+    "secret": "IotApplication"
+  },
+  "language": {
+    "accepted": [
+      {
+        "name": "Українська",
+        "slug": "ua"
+      },
+      {
+        "name": "Русский",
+        "slug": "ru"
+      }
+    ],
+    "current": "ua"
+  }
+}
